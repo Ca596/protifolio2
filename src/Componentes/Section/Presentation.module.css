@@ -1,0 +1,31 @@
+.presentation{
+    margin-left: 15%;
+    
+}
+.presentation h1{
+    font-size: 50px;
+ 
+}
+.presentation span{
+    position: relative;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.presentation span::before{
+    content: "";
+    color: aliceblue;
+    animation: palavras 8s infinite;
+}
+
+@keyframes palavras{
+    0%,33%{
+        content:" Carlos Eduardo";
+    }
+    34%,66%{
+        content:"Engenheiro de produção";
+    }
+    67%,100%{
+        content:"Desenvolvedor Full-stack";
+    }
+}

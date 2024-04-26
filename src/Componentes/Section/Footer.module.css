@@ -1,0 +1,23 @@
+.Footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.Footer ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.Footer li{
+    margin: 10px;
+}
+.Footer a{
+    color: aliceblue !important;
+}
+
+.Footer p{
+    margin: 30px;
+}
+
